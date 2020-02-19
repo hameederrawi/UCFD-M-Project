@@ -5,23 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <!-- Added link to bootstrap 3.4.1 for carousel to work -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- added javascript source from bootstrap for carousel to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Reality Decor</title>
 </head>
 <body>
-<!-- code institute mini project tutorial with some adjustments by me -->
+    <!-- code institute mini project tutorial with some adjustments by me -->
     <header>
-        <div class="row no-gutters">            
-            <div class="col-md-12">
-                <div class="row no-gutters bg-color-name-title">
-                    <div class="col heading imagetop">
-                        <h1 class="name strokeme">Reality</h1>
-                        <h2 class="title strokeme">Decor</h2>
+            <div class="row no-gutters"> 
+              <a class="col-md-4 logo" href="index.html"></a>          
+                <div class="col-md-8">
+                    <div class="row no-gutters">
+                        <div class="col heading imagetop">
+                            <p class="name strokeme"><h1 class="name strokeme ::first-letter">Reality</h1>
+                            <h2 class="title strokeme ::first-letter">Decor</h2></p>
+                        </div>
                     </div>
-                </div>
-                <div class="row no-gutters">
+                  <div class="row no-gutters">
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
@@ -39,9 +45,9 @@
                             
                         </ul>
                     </div>
-                </div>
+                  </div>
+               </div>
             </div>
-        </div>
     </header>
     <section class="container-fluid">
         <div class="row bg-color-contact">
@@ -83,25 +89,16 @@
                     
                 </p>
             </div>
-             <div class="col-sm-4">
-        <div class="table-responsive">
-            <table>
-                <tbody>
-                    <tr>                    
-                        <td><a href="index.html"><img src="assets/images/logo.png" class="logo-size"></a></td>
-                        <h5 class="uppercase general-sub">Download</h5>
-                        <p class="inline-block">
-                            Download products Brochure.
-                            <a href="assets/brochure/brochure.pdf" target="_blank" class="brochure-pdf">
-                                <i class="fa fa-download" aria-hidden="true"></i>
-                                <span class="sr-only">Download link.</span>
-                            </a>
-                        </p>                  
-                    </tr>            
-                </tbody>
-            </table>
-       </div>
-     </div>
+      <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Download</h5>
+                <p class="inline-block">
+                    Download products Brochure.
+                    <a href="assets/brochure/brochure.pdf" target="_blank" class="brochure-pdf">
+                      <i class="fa fa-download" aria-hidden="true"></i>
+                      <span class="sr-only">Download link.</span>
+                    </a>
+                </p>                                       
+       </div> 
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
