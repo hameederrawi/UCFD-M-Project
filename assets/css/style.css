@@ -156,9 +156,6 @@ h2::first-letter {
     margin-left: 0px;
 }
 
-.userImg { width: 100%; height: auto; }
-
-
 .imgContainer { display: flex; align-items: stretch}
 
 /*--------------------------------------------menuitem */
