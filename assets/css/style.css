@@ -116,7 +116,7 @@ header {
   
 }
 
-/*--------------------------------------------class p::first-letter reference w3schools **NEED SOME HELP** "disabled to enable delete 1 from p1" - Got it working now 
+/*--------------------------------------------class p::first-letter reference w3schools Got it working  
 after replacing P with h1 and target h1 with ::first-letter, this way other P elements in the body are not effected */
 
 h1::first-letter {
@@ -290,8 +290,8 @@ button[type="submit"] {
     
 }
 
-/* ----------------------------------------from google dev tools "found a problem with table margin" fixed top margin, still a problem with bottom on small screen - fixed
-now at the next media query below */
+/* ----------------------------------------from google dev tools "found a problem with table margin" fixed top margin, fixed bottom margin
+ with the next media query below */
 .table {
     margin-top: 0;
     margin-bottom: 0;
@@ -307,20 +307,6 @@ now at the next media query below */
         border: 0px;
     }
 } 
-/* ----------------------------------------Zoom Hover from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
-/* .zoom {
-  padding: 50px;
-  /* background-color: green;
-  transition: transform .2s; /* Animation */
- /* width: 110px;
-  height: 110px;
-  margin: 0 auto;
-/* }
-
-.zoom:hover {
-  transform: scale(4.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
- /* position: relative;
-}
 
 /* ----------------------------------------Zoom Hover from https://codepen.io/preecb/pen/mdJJdLy */
 * {
@@ -396,6 +382,8 @@ now at the next media query below */
     border-color: #df4929;
     color: white;
 }
+
+/*----------------------- jumbotron bootstrap class */
 
 .jumbotron {
     background-color: #ffffff;
