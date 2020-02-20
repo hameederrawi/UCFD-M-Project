@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
@@ -69,6 +71,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 270px;
+    -o-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -310,7 +313,6 @@ button[type="submit"] {
 
 /* ----------------------------------------Zoom Hover from https://codepen.io/preecb/pen/mdJJdLy */
 * {
-    -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     margin-top: 0;
@@ -326,15 +328,21 @@ button[type="submit"] {
 }
 .image-box img {
     max-width: 100%;
+    -webkit-transition: all 2.0s;
+    -o-transition: all 2.0s;
     transition: all 2.0s;
     display: block;
     width: 100%;
     height: auto;
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
 }
 
 .image-box:hover img {
-    transform: scale(2.9);
+    -webkit-transform: scale(2.9);
+        -ms-transform: scale(2.9);
+            transform: scale(2.9);
 }
 
 .titletext {
