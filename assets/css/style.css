@@ -156,8 +156,6 @@ h2::first-letter {
     margin-left: 0px;
 }
 
-.imgContainer { display: flex; align-items: stretch}
-
 /*--------------------------------------------menuitem */
 
 .list-inline-item:not(:last-child) {
