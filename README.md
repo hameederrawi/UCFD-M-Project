@@ -33,9 +33,6 @@ Contact: on click - redirects the user to the contact page, displaying a form fo
 Social: on click - redirects the user to the relevant social network.
 Logo: on click - redirects the user to the home page.
 
-Wireframe link:
-
-
 ## Features
 
 The project consist of the following features:
