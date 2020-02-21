@@ -29,9 +29,16 @@ The website has the following links;
 Home: on click - redirects the user to the home page.
 About: on click - redirects the user to the about page for a brief introduction to the business.
 Products: on click - redirects the user to the products page.
+products modal: popup modal for "get a quote"
 Contact: on click - redirects the user to the contact page, displaying a form for submission with all required fields.
 Social: on click - redirects the user to the relevant social network.
 Logo: on click - redirects the user to the home page.
+
+
+Mockups link:
+
+https://hameederrawi.github.io/UCFD-M-Project/assets/mockup/mockup.pdf
+
 
 ## Features
 
@@ -80,7 +87,7 @@ java script for modal function
 Tested all links in the project, they are all working as intended.
 
 
-The project works on all screen sizes as intended.
+Tested the project on Google DevTools, The project works on all screen sizes as intended.
 
 
 ## Deployment
