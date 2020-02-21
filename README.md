@@ -107,3 +107,15 @@ The photos used in this site were obtained from Reality Decor and from The A.S. 
 ### Acknowledgements
 
 I received inspiration for this project from myself and my wife.
+
+
+#### Notes
+
+I started this project in a different repositoy https://github.com/hameederrawi/UCFD-M-Project1 
+but encountered a problem with git commands as I was trying to remove some unwanted files via 
+the .git rm command, I was then encountering the "diverged" error which i could not resolve.
+So i started this new repository and copied all needed files to it.
+Hence the previous repository will have more record of commits than this one.
+
+the unwanted files that were created with the repository automatically are still present in this 
+repository, I did not want to risk repeating the issue as I am so close to project submission.
