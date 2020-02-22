@@ -143,7 +143,7 @@ I did not have much time to risk in research for a solution, as unfortunatly Git
 So I started this new repository and copied all needed files to it.
 Hence the previous repository will have more record of commits than this one.
 
-The unwanted files that were created with the repository automatically have now been removed (using the same commands that I caused the error above, 
+The unwanted files that were created with the repository automatically have now been removed (using the same commands that caused the error above, 
 There was no issue this time!) I reached out to Code institute support prior to attempting the removal, they confirmed the commands to use.
 
 
